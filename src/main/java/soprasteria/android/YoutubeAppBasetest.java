@@ -2,10 +2,10 @@ package soprasteria.android;
 
 import se.soprasteria.automatedtesting.webdriver.api.base.BaseTestCase;
 import se.soprasteria.automatedtesting.webdriver.helpers.driver.AutomationDriver;
-import soprasteria.android.android.pages.MainPage;
+import soprasteria.android.android.pagesApp.MainPage;
 
 
-public class AndroidBasetest extends BaseTestCase {
+public class YoutubeAppBasetest extends BaseTestCase {
     protected MainPage mainPage;
 
     @Override
@@ -17,6 +17,5 @@ public class AndroidBasetest extends BaseTestCase {
     @Override
     protected void initPages(AutomationDriver automationDriver) {
         mainPage = new MainPage(automationDriver);
-
     }
 }
