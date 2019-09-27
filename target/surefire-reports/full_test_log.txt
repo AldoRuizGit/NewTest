@@ -1,0 +1,43 @@
+10:42:03:144 WARN  [BDDFactory          ] - Ran ifEmptyOverride with an empty value, probably bug, no exception thrown
+10:42:03:164 INFO  [BDDFactory          ] - configId: android
+10:42:03:379 INFO  [BaseTestListener    ] - STARTING TESTSUITE: Tests for web
+10:42:03:381 INFO  [PerformAndroidTest  ] - configId: android
+10:42:03:382 INFO  [BaseTestSuite       ] - Initializing testsuite, should only run once per
+10:42:03:382 INFO  [BaseTestSuite       ] - Attempting to use the latest available version for webdriver AndroidDriver.
+10:42:03:394 INFO  [PerformAndroidTest  ] - INIT CLASS: PerformAndroidTest
+10:42:03:399 INFO  [DebugLevel          ] - Setting debugLevel to IMAGES_FAIL
+10:42:07:460 INFO  [PerformAndroidTest  ] - configId: android
+10:42:07:461 INFO  [Setup               ] - Initializing AndroidDriver
+10:42:07:464 INFO  [Setup               ] - Setting capability: deviceName   value: Android Phone
+10:42:07:465 INFO  [Setup               ] - Setting capability: automationName   value: uiautomator2
+10:42:07:466 INFO  [Setup               ] - Setting capability: app   value: C:\Users\ahugo\Documents\NewTest\target\test-classes\API-test.apk
+10:42:07:610 INFO  [Setup               ] - 
+----- ANDROID PACKAGE INFORMATION ------
+ Package Label: QA-Framework-API-testing
+ Version Name: 1.0
+ Version Code: 1
+----------------------------------------
+10:42:27:832 INFO  [Setup               ] - Setting implicit wait to 0 milliseconds
+10:42:28:438 TRACE [EventHandler        ] - Finding element: (By.id: resetButton)
+10:42:28:937 TRACE [Presence            ] - Element was displayed within 60000 milliseconds
+10:42:28:991 TRACE [EventHandler        ] - Finding element: (By.id: swipeUp)
+10:42:29:115 TRACE [Presence            ] - Element was gone within 1000 milliseconds
+10:42:29:211 TRACE [EventHandler        ] - Finding element: (By.id: swipeDown)
+10:42:29:433 TRACE [Presence            ] - Element was gone within 1000 milliseconds
+10:42:29:441 INFO  [BaseTestListener    ] - TEST STARTED: swipeTest
+10:42:29:550 TRACE [EventHandler        ] - Finding element: (By.id: switchToSwipe)
+10:42:30:232 TRACE [Presence            ] - Element was clickable within 2000 milliseconds
+10:42:30:751 TRACE [EventHandler        ] - Clicked element: (id: switchToSwipe)
+10:42:32:087 DEBUG [Setup               ] - Swiping up with a distance of 30% of the vertical screen size starting at X = 0 + 50% of the horizontal screen size
+10:42:34:032 INFO  [MainPage            ] - Successfully swiped up
+10:42:34:098 TRACE [EventHandler        ] - Finding element: (By.id: swipeUp)
+10:42:34:748 TRACE [Presence            ] - Element was displayed within 0 milliseconds
+10:42:35:604 DEBUG [Setup               ] - Swiping down with a distance of 30% of the vertical screen size starting at X = 0 + 50% of the horizontal screen size
+10:42:36:908 INFO  [MainPage            ] - Successfully swiped down
+10:42:37:000 TRACE [EventHandler        ] - Finding element: (By.id: swipeDown)
+10:42:37:076 TRACE [Presence            ] - Element was not displayed within 0 milliseconds
+10:42:37:077 ERROR [VideoRecording      ] - File : null could not be deleted: null
+10:42:37:077 INFO  [BaseTestListener    ] - TEST PASSED: swipeTest
+
+10:42:37:079 INFO  [PerformAndroidTest  ] - CLOSING ANDROIDDRIVER: swipeTest
+10:42:41:844 INFO  [BaseTestListener    ] - FINISHED TESTSUITE: Tests for web
